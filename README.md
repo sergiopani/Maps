@@ -6,5 +6,6 @@ This is a preview of
 
 ![image](./img/map.PNG)
 
-
+# Launch
+Run parcel index.html
 Created By Sergio Paniagua López
