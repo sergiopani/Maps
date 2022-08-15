@@ -1,16 +1,16 @@
 
-/* import { User } from './User'
+import { User } from './User'
 import { Company} from './Company'
- */
 
+import { CustomMap } from "./CustomMap";
+
+const user = new User();
+const company = new Company();
 //Create an html element and pass as an argument
-const mapDiv = $('#map')[0]
+const customMap = new CustomMap();
 
-new google.maps.Map(mapDiv,{
-    zoom:1,
-    center:{
-        lat:0,
-        lng:0
-    }
-}
-); 
+customMap.addMarker(company)
+customMap.addMarker(user);
+
+
+
